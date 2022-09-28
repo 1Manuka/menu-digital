@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1e1c27;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+main {
+    border: 5px solid #5e92a6;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+
+}
+
+header {
+    padding: 32px 0;    
+    text-align: center;
+}
+
+header img {
+        filter: drop-shadow(0px 0px 1px #4b4b50);
+        animation: flutuar 3s linear infinite;
+    }
+    
+    @keyframes flutuar {
+        0%,
+        100% {
+            transform: translateY(0px);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+    }
+
+
+header h1 {
+    margin-bottom: 4px;
+    font-size: 40px;
+    line-height: 33px;
+    color: #000000;
+    -webkit-text-stroke: 0.2px #995000;
+    font-family: 'atrounaut';
+}
+
+header span {
+    font-family: 'sabiela';
+    font-size: 70px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    color:#995000; 
+}
+
+header p {
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 18px;
+    color: #5e92a6;
+    font-weight: 700;
+
+}
+
+header,section {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+section h2 {
+    background-color: #995000;
+    padding: 8px 16px;
+    text-align: center;
+
+    margin-bottom: 24px;
+    font-size: 18px;
+}
+
+ul li {
+    margin-bottom: 16px;
+    display: flex;
+    text-align: left;
+}
+
+li .produtos {
+    max-width: 240px;
+    
+}
+
+.produtos h3{
+    margin: 0px auto 0px 10px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
+h2, h3, .preco {
+    font-family: 'Roboto Serif', serif;
+    text-transform: uppercase;
+    color: #fed27e;
+    margin: 0px 10px;
+    border-radius: 15px;
+}
+
+
+
+.preco {
+    margin: 0px 10px 0px auto;
+}
+

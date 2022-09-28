@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif:opsz,wght@8..144,700&display=swap');
+
+@font-face {
+    font-family: 'atrounaut';
+    src: url(../src/fontes/Astronaut_PersonalUse.otf);
+}
+
+@font-face {
+    font-family: 'sabiela';
+    src: url(../src/fontes/SabilaRenythaPersonalUseItalic.otf);
+}
